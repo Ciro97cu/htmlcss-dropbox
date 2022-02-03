@@ -36,21 +36,37 @@ body {
     color: white;
 }
 
+.c-grey {
+    color: grey;
+}
+
 /* Regole css centrature */
+.centering-70 {
+    width: 70%;
+    margin: auto;
+}
+
 .centering-80 {
     width: 80%;
     margin: auto;
 }
 
-
-
-/* Regole css per larghezze */
-.w-50 {
-    width: 50%;
+.centering-90 {
+    width: 90%;
+    margin: auto;
 }
 
+/* Regole css per larghezze */
 .w-25 {
     width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .w-70 {
@@ -62,7 +78,7 @@ header ul {
     list-style-type: none;
 }
 
-header a, section.first-section a {
+header a, section.first-section a, section.second-section .plans-data .btn-plans a {
     text-decoration: none;
 }
 
@@ -75,8 +91,7 @@ header li:hover {
     border-bottom: none; 
 }
 
-header .header-btn:hover, section.first-section a:hover {
+header .header-btn:hover, section.first-section a:hover, section.second-section .plans-data .btn-plans a:hover {
     opacity: 0.8;
 }
 
-/* Regole css per i font awesome */

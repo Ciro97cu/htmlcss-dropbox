@@ -4,11 +4,12 @@ header {
     line-height: 5vh;
     width: 100%;
     position: fixed;
+    background-color: white;
 }
 
 /* logo header */
 header img {
-    margin: 0 2vw;
+    margin: 0 0 0 2vw;
     height: 100%;
     vertical-align: middle;
 }
@@ -77,9 +78,93 @@ section.first-section a {
 
 section.first-section i {
     font-size: 2.5rem;
+    padding-bottom: 10vh;
 }
 
 /* regole img prima sezione */
 section.first-section img {
     width: 100%;
+}
+
+/* Regole css seconda sezione */
+
+section.second-section {
+    height: 200vh;
+}
+
+/* regole titolo seconda sezione */
+section.second-section h2 {
+    font-size: 3rem;
+    padding: 15vh 0 4vh;
+}
+
+/* regole label seconda sezione */
+label {
+    margin-right: 2vw;
+    font-weight: 500;
+}
+
+/* regole elementi flottati */
+.plans-f-column, .plans-s-column {
+    margin-right: 5%;
+}
+
+
+.centering-90 {
+    background-color: greenyellow;
+}
+
+section.second-section .clearfix {
+    margin-top: 3vh;
+}
+
+section.second-section .title-plans {
+    padding: 0.5vh 0.5vw;
+    text-align: center;
+    border: 2px solid #ececed;
+    font-weight: 500;
+}
+
+section.second-section .plans-data {
+    border: 2px solid #ececed;
+    padding: 2vh 0 10vh;
+}
+
+section.second-section .plans-data * {
+    padding: 0.5vh 0;
+}
+
+section.second-section .plans-data h1 {
+    font-size: 1.5rem;
+}
+
+section.second-section .plans-data .costo {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+section.second-section .plans-data .month {
+    font-size: 0.8rem;
+    padding-bottom: 3vh;
+}
+
+section.second-section .plans-data .f-a-txt {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+section.second-section .plans-data .btn-plans {
+    text-align: center;
+}
+
+section.second-section .plans-data .btn-plans a {
+    font-size: 1rem;
+    background-color: #0061ff;
+    padding: 0.5vh 1vw;
+}
+
+
+
+section.second-section .plans-data h2 {
+    font-size: 1rem;
 }
