@@ -6,3 +6,59 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* fine */
+
+/* Regole css elementi flottati + clearfix */
+.float-l {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine */
+
+/* Regole css per formattazione testo */
+body {
+    font-size: 16px;
+}
+
+.tar {
+    text-align: right;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+/* Regole css per larghezze */
+.w-50 {
+    width: 50%;
+}
+
+/* Regole generali ul */
+header ul {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* Regole css hover */
+header li:hover {
+    border-bottom: 2px solid black;
+}
+
+.nob-b:hover{
+    border-bottom: none; 
+}
+
+header .header-btn:hover {
+    opacity: 0.8;
+}
