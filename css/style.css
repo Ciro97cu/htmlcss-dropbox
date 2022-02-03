@@ -104,7 +104,7 @@ label {
     font-weight: 500;
 }
 
-/* regole elementi flottati */
+/* regole margini elementi flottati */
 .plans-f-column, .plans-s-column {
     margin-right: 5%;
 }
@@ -113,6 +113,7 @@ section.second-section .clearfix {
     margin-top: 3vh;
 }
 
+/* regole formattazione piani di acquisto */
 section.second-section .title-plans {
     padding: 0.5vh 0.5vw;
     text-align: center;
@@ -122,7 +123,7 @@ section.second-section .title-plans {
 
 section.second-section .plans-data {
     border: 2px solid #ececed;
-    padding: 2vh 0 10vh;
+    padding: 2vh 0 20vh;
 }
 
 section.second-section .plans-data * {
@@ -191,3 +192,4 @@ section.second-section .plans-data .list-plans li {
     font-size: 1rem;
     font-weight: 500;
 }
+/* fine regole tabelle */
