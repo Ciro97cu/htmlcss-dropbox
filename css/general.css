@@ -95,3 +95,6 @@ header .header-btn:hover, section.first-section a:hover, section.second-section 
     opacity: 0.8;
 }
 
+section.second-section .plans-data .buy-now:hover {
+    text-decoration: none;
+}

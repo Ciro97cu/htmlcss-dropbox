@@ -109,11 +109,6 @@ label {
     margin-right: 5%;
 }
 
-
-.centering-90 {
-    background-color: greenyellow;
-}
-
 section.second-section .clearfix {
     margin-top: 3vh;
 }
@@ -155,16 +150,44 @@ section.second-section .plans-data .f-a-txt {
 
 section.second-section .plans-data .btn-plans {
     text-align: center;
+    padding: 3vh 0 2vh;
 }
 
 section.second-section .plans-data .btn-plans a {
     font-size: 1rem;
     background-color: #0061ff;
-    padding: 0.5vh 1vw;
+    padding: 0.5vh 3vw;
+    font-weight: 500;
 }
 
+section.second-section .plans-data .opt-buy-now {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 4vh;
+}
 
+section.second-section .plans-data span {
+    border-bottom: 2px solid #ececed;
+    padding-bottom: 2vh;
+}
+
+section.second-section .plans-data .buy-now {
+    color: #0061ff;
+}
 
 section.second-section .plans-data h2 {
     font-size: 1rem;
+}
+
+section.second-section .plans-data li {
+    display: block;
+}
+
+section.second-section .plans-data .list-plans i {
+    color: #0061ff;
+}
+
+section.second-section .plans-data .list-plans li {
+    font-size: 1rem;
+    font-weight: 500;
 }
