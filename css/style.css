@@ -79,4 +79,7 @@ section.first-section i {
     font-size: 2.5rem;
 }
 
-/* tegole img prima sezione */
+/* regole img prima sezione */
+section.first-section img {
+    width: 100%;
+}
