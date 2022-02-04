@@ -44,6 +44,10 @@ main {
 }
 
 /* regole css prrma sezione */
+section.first-section {
+    height: 75vh;
+}
+
 /* titolo prima sezione */
 section.first-section h1 {
     font-size: 5rem;
@@ -87,7 +91,7 @@ section.first-section img {
 /* regole titolo seconda sezione */
 section.second-section .title-s-s {
     font-size: 3rem;
-    padding: 15vh 0 4vh;
+    padding: 20vh 0 4vh;
 }
 
 /* regole input e label seconda sezione */
@@ -375,10 +379,11 @@ section.fifth-section .rectangle .fifth-s-begin a {
     text-decoration: none;
     border: 1px solid black;
 }
-/* fine quinta sezione */
 
 section.fifth-section .c-bordeaux {
     font-size: 3.4rem;
     margin-bottom: 2vh;
     max-width: 40%;
 }
+/* fine quinta sezione */
+
