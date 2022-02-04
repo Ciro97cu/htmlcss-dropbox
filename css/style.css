@@ -313,10 +313,10 @@ section.fifth-section {
     margin: 5vh 0 5vh;
 }
 
-section.fifth-section h2 {
+section.fifth-section .first-title {
     font-size: 3.4rem;
     margin-bottom: 2vh;
-    max-width: 40%;
+    max-width: 65%;
 }
 
 section.fifth-section .link-discover {
@@ -377,3 +377,8 @@ section.fifth-section .rectangle .fifth-s-begin a {
 }
 /* fine quinta sezione */
 
+section.fifth-section .c-bordeaux {
+    font-size: 3.4rem;
+    margin-bottom: 2vh;
+    max-width: 40%;
+}
