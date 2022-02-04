@@ -88,12 +88,8 @@ section.first-section img {
 
 /* Regole css seconda sezione */
 
-section.second-section {
-    height: 200vh;
-}
-
 /* regole titolo seconda sezione */
-section.second-section h2 {
+section.second-section .title-s-s {
     font-size: 3rem;
     padding: 15vh 0 4vh;
 }
@@ -109,7 +105,7 @@ label {
     margin-right: 5%;
 }
 
-section.second-section .clearfix {
+section.second-section .table-columns {
     margin-top: 3vh;
 }
 
@@ -195,3 +191,120 @@ section.second-section .plans-data .list-plans li {
 }
 /* fine regole tabelle */
 
+/* regole riga piani */
+
+section.second-section .plans-row {
+    margin-top: 5vh;
+}
+
+section.second-section .plans-row .title-plans-row {
+    padding: 0.5vh 0.5vw;
+    text-align: center;
+    border: 2px solid #ececed;
+    font-weight: 500;
+}
+
+section.second-section .plans-row .container-plans-row {
+    border: 2px solid #ececed;
+}
+
+section.second-section .plans-row .c-plans-row {
+    margin: 3vh 0 2vh;
+    line-height: 3.5vh;
+}
+
+section.second-section .plans-row .title-ent {
+    font-size: 2rem;
+}
+
+section.second-section .plans-row a {
+    font-size: 1rem;
+    background-color: #0061ff;
+    padding: 0.5vh 3vw;
+    font-weight: 500; 
+}
+
+section.second-section .plans-row h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2vh;
+}
+
+section.second-section .plans-row .marg-bott-p p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
+/* inizio regole terza sezione */
+section.third-section {
+    margin: 15vh 0 10vh;
+}
+
+section.third-section .w-50 {
+    margin-right: 5%;
+}
+
+section.third-section img[src*=partner] {
+    width: 100%;
+}
+
+section.third-section .third-section-txt h2 {
+    font-size: 2rem;
+}
+
+section.third-section .third-section-txt p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 3vh 0 3vh;
+}
+
+section.third-section .third-section-txt a {
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 0.5vh 1.5vw;
+    font-weight: 500; 
+    text-decoration: none;
+}
+/* fine regole terza sezione */
+
+/* regole css quarta sezione */
+section .fourth-section {
+    margin: 5vh 0 10vh;
+}
+
+section.fourth-section h2 {
+    font-size: 3.4rem;
+    margin-bottom: 5vh;
+}
+
+.fourth-section-marg-b {
+    margin-bottom: 8vh;
+}
+
+.fourth-section-marg-l {
+    margin-right: 5%;
+}
+
+/* regole css dimensionamento immagini quarta sezione */
+section.fourth-section .image-wrapper {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+section.fourth-section img[src*=sines] {
+    width: 100%;
+}
+/* fine */
+
+section.fourth-section h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+}
+
+section.fourth-section p {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 5vh;
+}
+
+/* regole quinta sezione */

@@ -65,6 +65,10 @@ body {
     width: 30%;
 }
 
+.w-45 {
+    width: 45%;
+}
+
 .w-50 {
     width: 50%;
 }
@@ -78,7 +82,7 @@ header ul {
     list-style-type: none;
 }
 
-header a, section.first-section a, section.second-section .plans-data .btn-plans a {
+header a, section.first-section a, section.second-section .plans-data .btn-plans a, section.second-section .plans-row a {
     text-decoration: none;
 }
 
@@ -91,10 +95,14 @@ header li:hover {
     border-bottom: none; 
 }
 
-header .header-btn:hover, section.first-section a:hover, section.second-section .plans-data .btn-plans a:hover {
+header .header-btn:hover, section.first-section a:hover, section.second-section .plans-data .btn-plans a:hover, section.second-section .plans-row a:hover {
     opacity: 0.8;
 }
 
 section.second-section .plans-data .buy-now:hover {
     text-decoration: none;
+}
+
+section.third-section .third-section-txt a:hover {
+    box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
 }
