@@ -31,7 +31,6 @@ header li {
 /* ul header di destra */
 header .header-btn {
     margin-right: 2vw;
-    background-color: #0061ff;
     padding: 0.5vh 1vw;
 }
 
@@ -65,7 +64,6 @@ section.first-section p {
 
 section.first-section a {
     font-size: 1rem;
-    background-color: #0061ff;
     padding: 0.5vh 1vw;
 }
 
@@ -148,7 +146,6 @@ section.second-section .plans-data .f-a-txt {
 
 section.second-section .plans-data a.c-white {
     font-size: 1rem;
-    background-color: #0061ff;
     display: block;
     text-align: center;
     margin: 3vh 0 2vh;
@@ -212,7 +209,6 @@ section.second-section .plans-row .title-ent {
 
 section.second-section .plans-row a {
     font-size: 1rem;
-    background-color: #0061ff;
     padding: 0.5vh 3vw;
 }
 
