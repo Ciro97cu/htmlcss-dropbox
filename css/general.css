@@ -56,6 +56,10 @@ body {
     background-color: black;
 }
 
+.bc-white {
+    background-color: white;
+}
+
 .bc-btn {
     background-color: #0061ff;
 }

@@ -4,7 +4,6 @@ header {
     line-height: 4.8vh;
     width: 100%;
     position: fixed;
-    background-color: white;
     z-index: 1;
 }
 
@@ -343,7 +342,6 @@ section.fifth-section .rectangle .fifth-s-begin {
 
 section.fifth-section .rectangle .fifth-s-begin a {
     font-size: 1rem;
-    background-color: white;
     padding: 0.5vh 3vw;
     text-decoration: none;
     border: 1px solid black;
