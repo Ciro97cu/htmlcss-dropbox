@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: 0;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 /* fine */
 
@@ -26,10 +27,6 @@ body {
 
 .tar {
     text-align: right;
-}
-
-.tdu {
-    text-decoration: underline;
 }
 
 .c-black {
@@ -172,4 +169,13 @@ section.fifth-section .pos-rel:hover {
 
 section.fifth-section .bc-grey:hover {
     box-shadow: inset 0 0 0 1vh rgba(0, 0, 0, 0.2);
+}
+
+/* regole hover sesta sezione */
+section.sixth-section .text-wrapper p {
+    display: none;
+}
+
+section.sixth-section .text-wrapper:hover p {
+    display: block;
 }

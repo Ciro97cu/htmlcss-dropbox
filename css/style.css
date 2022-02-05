@@ -387,3 +387,37 @@ section.fifth-section .c-bordeaux {
 }
 /* fine quinta sezione */
 
+/* regole sesta sezione */
+section.sixth-section {
+    margin: 10vh 0 5vh;
+}
+
+/* regole titolo resta sezione */
+section.sixth-section h2 {
+    font-size: 2rem;
+    margin-bottom: 3vh;
+}
+
+/* regole contenitore testo */
+section.sixth-section .text-wrapper {
+    padding: 2vh 0;
+    border-top: 2px solid #ececed;
+    border-bottom: 2px solid #ececed;
+}
+
+section.sixth-section .text-wrapper h3 {
+    font-size: 1.3rem;
+}
+
+section.sixth-section .text-wrapper p {
+    margin-top: 2vh;
+    max-width: 70%;
+}
+
+section.sixth-section .text-wrapper i {
+    font-size: 2rem;
+    text-align: right;
+    padding: 0 2.5%;
+}
+
+/* regole footer */
