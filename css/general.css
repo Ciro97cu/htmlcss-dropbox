@@ -192,3 +192,16 @@ section.sixth-section .text-wrapper p {
 section.sixth-section .text-wrapper:hover p {
     display: block;
 }
+
+/* regole hover cambio arrow font awesome */
+section.sixth-section .clearfix i:nth-child(3) {
+    display: none;
+}
+
+section.sixth-section .text-wrapper:hover i:nth-child(2) {
+    display: none;
+}
+
+section.sixth-section .text-wrapper:hover i:nth-child(3) {
+    display: block;
+} 
