@@ -6,7 +6,6 @@
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
-/* fine */
 
 /* Regole css elementi flottati + clearfix */
 .float-l {
@@ -18,7 +17,6 @@
     display: table;
     clear: both;
 }
-/* fine */
 
 /* Regole css per formattazione testo */
 body {
