@@ -161,20 +161,12 @@ section.second-section .plans-data span {
     padding-bottom: 2vh;
 }
 
-section.second-section .plans-data .buy-now {
-    color: #0061ff;
-}
-
 section.second-section .plans-data h2 {
     font-size: 1rem;
 }
 
 section.second-section .plans-data li {
     display: block;
-}
-
-section.second-section .plans-data .list-plans i {
-    color: #0061ff;
 }
 
 section.second-section .plans-data .list-plans li {
@@ -303,7 +295,6 @@ section.fifth-section .first-title {
 }
 
 section.fifth-section .link-discover {
-    color: #0061ff;
     font-size: 1rem;
 }
 
