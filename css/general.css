@@ -50,6 +50,9 @@ body {
 }
 
 /* regole css colori di background */
+.bc-black {
+    background-color: black;
+}
 
 .bc-green {
     background-color: #a2d39b;
@@ -64,7 +67,7 @@ body {
 }
 
 .bc-red {
-background-color: #ff1c1c;
+    background-color: #ff1c1c;
 }
 
 .bc-darkred {
@@ -104,6 +107,10 @@ background-color: #ff1c1c;
 }
 
 /* Regole css per larghezze */
+.w-16 {
+    width: 16%;
+}
+
 .w-25 {
     width: 25%;
 }
@@ -137,7 +144,7 @@ header ul {
     list-style-type: none;
 }
 
-header a, section.first-section a, section.second-section .plans-data .btn-plans a, section.second-section .plans-row a {
+header a, section.first-section a, section.second-section .plans-data a.c-white, section.second-section .plans-row a, footer ul li a, footer .last-content-footer a {
     text-decoration: none;
 }
 
@@ -150,12 +157,18 @@ header li:hover {
     border-bottom: none; 
 }
 
-header .header-btn:hover, section.first-section a:hover, section.second-section .plans-data .btn-plans a:hover, section.second-section .plans-row a:hover {
+header .header-btn:hover, section.first-section a:hover, section.second-section .plans-data a.c-white:hover, section.second-section .plans-row a:hover {
     opacity: 0.8;
 }
 
 section.second-section .plans-data .buy-now:hover, section.fifth-section a:hover {
     text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+    font-weight: 900;
 }
 
 section.third-section .third-section-txt a:hover, section.fifth-section .rectangle .fifth-s-begin a:hover {
