@@ -118,7 +118,7 @@ section.second-section .title-plans {
 section.second-section .plans-data {
     border: 2px solid #ececed;
     padding-top: 2vh;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 section.second-section .plans-data * {
